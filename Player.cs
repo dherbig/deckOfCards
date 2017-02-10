@@ -12,6 +12,7 @@ namespace ConsoleApplication{
         }
         public Card Discard(int idx)
         {
+            //Nice check!
             if (idx < hand.Count - 1 && idx > 0)
             {
                 Card theCard = hand[idx];
