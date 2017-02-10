@@ -43,7 +43,7 @@ namespace ConsoleApplication{
                     contents.Add(newCard);
                 }
             }
-            this.Shuffle();
+            this.Shuffle(); //Maybe not always shuffle? Though I agree most all games require shuffling regardless
          }
     }
 }
